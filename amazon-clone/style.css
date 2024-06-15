@@ -158,3 +158,33 @@ span {
   color: #007185;
   text-decoration: none;
 }
+
+/** shop-section **/
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px 0px;
+  margin-top: 10px;
+}
+
+.box-image {
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box-content p {
+  color: #007185;
+}
